@@ -101,8 +101,6 @@ def main():
                                    batch_size=args.batch_size, mode='train')
         valid_loader = make_loader(args, val_image_paths, transform=val_transform(p=1, im_size = args.img_size),
                                    batch_size=args.batch_size, mode='val')
-        test_loader = make_loader(args, test_image_paths, transform=test_transform(p=1, im_size = args.img_size),
-                                  batch_size=args.batch_size, mode='eva')
         train(args=args,
               model=model,
               criterion=nn.CrossEntropyLoss(),
@@ -127,6 +125,8 @@ def main():
         raise Exception("** Invalid training settings!!! **")
 
     print('==> Testing started.')
+    test_loader = make_loader(args, test_image_paths, transform=test_transform(p=1, im_size = args.img_size),
+                                  batch_size=args.batch_size, mode='eva')
     checkpoint = torch.load(os.path.join(model_path, 'best_model_dice.pt'))
     model.load_state_dict(checkpoint['net'])  # load the best model
     metrics = validation_multi(
