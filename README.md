@@ -6,13 +6,13 @@ This is the Pytorch implementation for the paper:
 
 **Curriculum-Based Augmented Fourier Domain Adaption for Medical Image Segmentation**
 
-by [An Wang](wa09@link.cuhk.edu.hk)$^\dagger$, [Mobarakol Islam](m.islam20@imperial.ac.uk)$^\dagger$, [Mengya Xu](mengya@u.nus.edu)$^\dagger$, [Ben Glocker](b.glocker@imperial.ac.uk), and [Hongliang Ren](ren@nus.edu.sg)
+by [An Wang](wa09@link.cuhk.edu.hk)$^\dagger$, [Mobarakol Islam](m.islam20@imperial.ac.uk)$^\dagger$, [Mengya Xu](mengya@u.nus.edu)$^\dagger$, and [Hongliang Ren](ren@nus.edu.sg)
 
 $\dagger$: equal contribution
 
 
 ![curri-afda-overall](img/curri-afda-overall.png?raw=true "curri-afda-overall")
-This work proposes the Curriculum-based Augmented Fourier Domain Adaptation (Curri-AFDA), a simple yet effective method, proving to achieve impressive adaptation, generalization, and robustness performance for the medical image segmentation task.
+This work proposes the Curriculum-based Augmented Fourier Domain Adaptation (Curri-AFDA) to achieve impressive adaptation, generalization, and robustness performance for the medical image segmentation task.
 
 ## Environment
 - NVIDIA RTX3090
@@ -55,7 +55,7 @@ This work proposes the Curriculum-based Augmented Fourier Domain Adaptation (Cur
 More training commands are available in [exp.sh](https://github.com/lofrienger/Curri-AFDA/blob/main/exp.sh).
 
 ## Acknowledgement
-Some of the codes are adapted from [FedDG](https://github.com/liuquande/FedDG-ELCFS), [SWin-UNet](https://github.com/HuCaoFighting/Swin-Unet), and [robot-surgery-segmentation](https://github.com/ternaus/robot-surgery-segmentation).
+Some of the codes are adapted from [FedDG](https://github.com/liuquande/FedDG-ELCFS), [Swin-UNet](https://github.com/HuCaoFighting/Swin-Unet), and [robot-surgery-segmentation](https://github.com/ternaus/robot-surgery-segmentation).
 ## Citation
 ```
 @misc{dummy,
