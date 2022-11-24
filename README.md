@@ -4,7 +4,7 @@
 
 This is the Pytorch implementation for the paper: 
 
-**Curriculum-Based Augmented Fourier Domain Adaption for Medical Image Segmentation**
+**Curriculum-Based Augmented Fourier Domain Adaption for Robust Medical Image Segmentation**
 
 by [An Wang](wa09@link.cuhk.edu.hk)$^\dagger$, [Mobarakol Islam](m.islam20@imperial.ac.uk)$^\dagger$, [Mengya Xu](mengya@u.nus.edu)$^\dagger$, and [Hongliang Ren](ren@nus.edu.sg)
 
