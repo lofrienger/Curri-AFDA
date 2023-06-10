@@ -10,6 +10,7 @@ by [An Wang](wa09@link.cuhk.edu.hk)$^\dagger$, [Mobarakol Islam](m.islam20@imper
 
 $\dagger$: equal contribution
 
+[arXiv](https://arxiv.org/abs/2306.03511) (Under review)
 
 ![curri-afda-overall](img/curri-afda-overall.jpeg?raw=true "curri-afda-overall")
 This work proposes the Curriculum-based Augmented Fourier Domain Adaptation (Curri-AFDA) to achieve impressive adaptation, generalization, and robustness performance for the medical image segmentation task.
@@ -58,7 +59,10 @@ More training commands are available in [exp.sh](https://github.com/lofrienger/C
 Some of the codes are adapted from [FedDG](https://github.com/liuquande/FedDG-ELCFS), [Swin-UNet](https://github.com/HuCaoFighting/Swin-Unet), and [robot-surgery-segmentation](https://github.com/ternaus/robot-surgery-segmentation).
 ## Citation
 ```
-@misc{dummy,
-      title={Curriculum-Based Augmented Fourier Domain Adaption for Robust Medical Image Segmentation}
+@article{wang2023curriculum,
+  title={Curriculum-Based Augmented Fourier Domain Adaptation for Robust Medical Image Segmentation},
+  author={Wang, An and Islam, Mobarakol and Xu, Mengya and Ren, Hongliang},
+  journal={arXiv preprint arXiv:2306.03511},
+  year={2023}
 }
 ```
