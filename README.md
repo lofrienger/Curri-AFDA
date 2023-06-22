@@ -10,7 +10,7 @@ by [An Wang](wa09@link.cuhk.edu.hk)$^\dagger$, [Mobarakol Islam](m.islam20@imper
 
 $\dagger$: equal contribution
 
-[arXiv](https://arxiv.org/abs/2306.03511) (Under review)
+[arXiv](https://arxiv.org/abs/2306.03511) Accepted by _IEEE Transactions on Automation Science and Engineering_.
 
 ![curri-afda-overall](img/curri-afda-overall.jpeg?raw=true "curri-afda-overall")
 This work proposes the Curriculum-based Augmented Fourier Domain Adaptation (Curri-AFDA) to achieve impressive adaptation, generalization, and robustness performance for the medical image segmentation task.
