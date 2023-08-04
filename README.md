@@ -59,6 +59,15 @@ More training commands are available in [exp.sh](https://github.com/lofrienger/C
 Some of the codes are adapted from [FedDG](https://github.com/liuquande/FedDG-ELCFS), [Swin-UNet](https://github.com/HuCaoFighting/Swin-Unet), and [robot-surgery-segmentation](https://github.com/ternaus/robot-surgery-segmentation).
 ## Citation
 ```
+@ARTICLE{wang2023curriculum,
+  author={Wang, An and Islam, Mobarakol and Xu, Mengya and Ren, Hongliang},
+  journal={IEEE Transactions on Automation Science and Engineering}, 
+  title={Curriculum-Based Augmented Fourier Domain Adaptation for Robust Medical Image Segmentation}, 
+  year={2023},
+  doi={10.1109/TASE.2023.3295600}}
+```
+
+```
 @article{wang2023curriculum,
   title={Curriculum-Based Augmented Fourier Domain Adaptation for Robust Medical Image Segmentation},
   author={Wang, An and Islam, Mobarakol and Xu, Mengya and Ren, Hongliang},
